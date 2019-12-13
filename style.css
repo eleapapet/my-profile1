@@ -1,0 +1,115 @@
+body {
+	
+	background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-family:'Special Elite', cursive;
+}
+
+h1{
+	color: #F7B32B;
+	font-family:'Marck Script', cursive;
+	font-weight: lighter;
+	letter-spacing: 0px;
+	font-size: 50px;	
+}
+
+h2,h3 {
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
+	color:indianred;
+}
+
+a: hover {
+	color: #F7B32B;
+}
+
+
+/*custom and design with class*/
+.container{ 
+	width: 700px;
+    margin: 40px auto;
+ }
+  
+@media(max-width: 760px) {
+	.container {
+		width: 600px}
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px}
+}
+
+
+.box-indian {
+	background: floralwhite;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	margin: 10px 0px;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+.button-link{
+	background-color:indianred ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px
+}
+
+.button-link: hover {
+	background-color: #F7B32B;
+	color:#F7B32B;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+	color: #F7B32B;
+}
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: indianred;
+}
+
+#introduction p{
+margin-bottom: 40px;
+}
+#introduction{
+	display: block;
+}
+
+#follow{
+	display: block;
+}
+
+
+
+
+
+
+
+
